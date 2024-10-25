@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swirl</title>
+    <link rel="icon" href="images/imageMageLogo.png">
+    <link rel="apple-touch-icon" href="images/imageMageLogo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <!-- <meta property="og:title" content="Image Mage" />
+    <meta property="og:description" content="Turn photos into comic book art, abstract paintings, pixel art, and more." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://imagemageage.github.io/" />
+    <meta property="og:image" content="https://imagemageage.github.io/images/siteOGImage2.png">
+    <meta property="og:image:type" content="image/png" >
+    <meta property="og:image:width" content="800" >
+    <meta property="og:image:height" content="798" > -->
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="dat.gui-master/build/dat.gui.min.js"></script>
+  
+  </head>
+
+  <body>
+
+    <div id="gui"></div>
+    <div id="canvasContainer">
+      <canvas id="canvas"></canvas>
+    </div>
+    <div id="videoRecordingMessageDiv" class="hidden sticky-bottom">
+      Video recording underway. Press menu button or "v" to stop. The video will be saved to your downloads folder afterwards.
+    </div>
+    
+  </body>
+
+  <script src="mp4-muxer-main/build/mp4-muxer.js"></script>
+  <script src="colorFunctions.js"></script>
+  <script src="canvasVideoExport.js"></script>
+  <script src="waterRipple.js"></script>
+
+</html>
